@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import Header from "../components/Header";
 import SearchResults from "../components/SearchResults";
-import { API_KEY, CONTEXT_KEY } from "../keys";
+
 import Response from "../Response";
 
 function Search({ results }) {
